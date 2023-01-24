@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hellocontainers", "hellocontainers.csproj", "{F2FDC610-5E71-440F-A8A2-C95E9DF04EBC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hellocontainers", "hellocontainers.csproj", "{79BAC3AA-463C-400B-ACB7-AEB0ADB25ED2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F2FDC610-5E71-440F-A8A2-C95E9DF04EBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F2FDC610-5E71-440F-A8A2-C95E9DF04EBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F2FDC610-5E71-440F-A8A2-C95E9DF04EBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F2FDC610-5E71-440F-A8A2-C95E9DF04EBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79BAC3AA-463C-400B-ACB7-AEB0ADB25ED2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79BAC3AA-463C-400B-ACB7-AEB0ADB25ED2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79BAC3AA-463C-400B-ACB7-AEB0ADB25ED2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79BAC3AA-463C-400B-ACB7-AEB0ADB25ED2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {40664522-489A-42CC-84F6-E16765C16BC7}
+		SolutionGuid = {2E3AE929-6C7C-4A85-A577-64C012B24FEA}
 	EndGlobalSection
 EndGlobal

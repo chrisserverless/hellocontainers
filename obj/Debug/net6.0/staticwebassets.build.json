@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "lt4km4mG4Y2yk5f4XxaIylr68s0mIZMCFny1XGweYlI=",
+  "Source": "hellocontainers",
+  "BasePath": "_content/hellocontainers",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
