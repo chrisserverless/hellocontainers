@@ -1,11 +1,11 @@
 #See https://aka.ms/containerfastmode to understand how Visual Studio uses this Dockerfile to build your images for faster debugging.
 
-FROM mcr.microsoft.com/dotnet/aspnet:7.0 AS base
+FROM mcr.microsoft.com/dotnet/aspnet:7.0-alpine3.17-arm64v8 AS base
 WORKDIR /app
 EXPOSE 80
 EXPOSE 443
 
-FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
+FROM mcr.microsoft.com/dotnet/sdk:7.0-alpine3.17-arm64v8 AS build
 WORKDIR /src
 COPY ["hellocontainers.csproj", "."]
 RUN dotnet restore "./hellocontainers.csproj"
@@ -19,4 +19,4 @@ RUN dotnet publish "hellocontainers.csproj" -c Release -o /app/publish /p:UseApp
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["/home/shivachrome/.dotnet/dotnet", "hellocontainers.dll"]
+ENTRYPOINT ["dotnet", "hellocontainers.dll"]
