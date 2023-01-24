@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OpPchou41s+PzkMVO0oaZM7/yCSUrlQBV7P7dt3q4cmu3VrwSqc3r4crzg2O3jd0piHH/X0gYhB09dw7/0bIKg==",
+  "dgSpecHash": "mOLoOi3pAEFu8MX0H7gVYuO8hrswbS4YubUzh3PuQnQIzsYcbNi6/yu7dp+7pc4IsviDfNdQ6/bCR9by8TsFoQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\chris\\source\\repos\\hellocontainers\\hellocontainers.csproj",
+  "projectFilePath": "C:\\Users\\chris\\source\\repos\\k8s\\hellocontainers\\hellocontainers.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\chris\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.0\\microsoft.aspnetcore.openapi.7.0.0.nupkg.sha512",
     "C:\\Users\\chris\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
